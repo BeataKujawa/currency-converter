@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+		<html lang="pl"></html>
+		<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kalkulator walut.</title>
+		<link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<script defer src="js/script.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+		</head>
+
+	<body>
+	<div class="element">
+		<br><br>
+		<form class="js-form">
+			<fieldset class="form__fieldset">
+				<legend class="form__legend">Kalkulator walut</legend>
+				<p>
+					<label class="form__label">
+						Kwota w PLN:
+						<input
+							class="js-value" name ="name" required value ="" type="number" min="0">
+					</label>
+				</p>
+				<p>
+					<label class="form__label">
+						Aktualny kurs EUR:
+						<input
+							class="js-course" name ="name" required value="" type="number" min="0">
+							</label>
+					
+				</p>
+			</fieldset>
+		
+			<p>
+				<button class="js-submit">Przelicz!</button>
+			</p>
+		</form>
+		<p>Kwota po przeliczeniu w EUR:<strong class="js-eur">N/A</strong></p>
+	</body>
+</div>
+</html>
